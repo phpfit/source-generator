@@ -1,12 +1,12 @@
 {
     "name": "phpfit/source-generator",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Source generator based on provided configs",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Phpfit\\SourceGenerator\\": "src/"
+            "PhpFit\\SourceGenerator\\": "src/"
         }
     },
     "authors": [
