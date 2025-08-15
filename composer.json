@@ -1,0 +1,19 @@
+{
+    "name": "phpfit/source-generator",
+    "version": "1.0.0",
+    "description": "Source generator based on provided configs",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Phpfit\\SourceGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Iqbal Fauzi",
+            "email": "iqbalfawz@gmail.com"
+        }
+    ],
+    "require": {}
+}
