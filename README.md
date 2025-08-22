@@ -34,5 +34,5 @@ $source = Generator::array($array);
 
 ## License
 
-The phpfit/env library is licensed under the MIT license.
+The phpfit/source-generator library is licensed under the MIT license.
 See [License File](LICENSE.md) for more information.
