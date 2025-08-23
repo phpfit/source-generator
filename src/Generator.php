@@ -21,7 +21,7 @@ class Generator
             $tx .= $here_space_chr;
 
             if (!$indexed) {
-                $tx .= '\'' . $key . '\' => ';
+                $tx .= self::toSource($key) . ' => ';
             }
             $tx .= self::toSource($value, $here_space);
             $tx .= ',';
@@ -31,8 +31,7 @@ class Generator
         $tx = chop($tx, "\n,");
 
         if ($tx) {
-            $tx = '[' . $here_space_chr . $nl . $tx . $nl;
-            $tx .= $space_chr . ']';
+            $tx = '[' . $nl . $tx . $nl . $space_chr . ']';
         } else {
             return '[]';
         }
